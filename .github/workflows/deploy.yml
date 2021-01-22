@@ -28,5 +28,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
               cd ..
-              cd /pub/sbang
+              cd /pub
               git pull
