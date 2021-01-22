@@ -28,4 +28,4 @@ jobs:
           script: |
             cd ..
             cd /pub/sbang
-            git clone git@github.com:sarahbangg/cmsc388T-web-template.git
+            git clone git@github.com:sarahbangg/sarahbangg.github.io.git
