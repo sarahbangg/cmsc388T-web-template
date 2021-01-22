@@ -14,4 +14,6 @@ on:
               password: ${{secrets.PASSWORD}}
               port: ${{secrets.PORT}}
               script: |
-                  git clone
+                cd ..
+                cd pub/
+                git clone git@github.com:sarahbangg/sarahbangg.github.io.git
