@@ -27,4 +27,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+              cd ..
+              cd /pub/sbang
               git pull
